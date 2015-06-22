@@ -5,5 +5,94 @@
 	 ========================================================================== */
 
 .topbar {
+	@extend .shadow-z1;
+	background: $white;
+	height: 7.2rem;
+	overflow: hidden;
+}
 
+.topbar-list {
+	list-style: none;
+	font-size: 0;
+	margin: 0;
+}
+
+.topbar-item {
+	display: inline-block;
+	margin: 0 2rem;
+}
+
+.topbar-item:first-child {
+	margin: 0 2rem 0 0;
+}
+
+.topbar-item:last-child {
+	margin-right: 3.2rem;
+	padding: 0;
+}
+
+.topbar-logo-link {
+	background: $primary;
+	display: block;
+	font-size: 1.2rem;
+	padding: 2.6rem;
+}
+
+.topbar-logo {
+	vertical-align: sub;
+}
+
+.topbar-logo-dropdown {
+	background: $primary;
+	border-radius: initial;
+	color: $white;
+	display: block;
+	font-size: 1.2rem;
+	font-weight: $semiBold;
+	padding: 2.2rem;
+	text-decoration: none;
+	height: 100%;
+}
+
+.topbar-logo-dropdown:hover {
+	color: $white;
+}
+
+.topbar-link {
+	@include anim(color);
+	color: rgba($secondary, .7);
+	font-size: 1.2rem;
+	font-weight: $semiBold;
+	padding: 0 .4rem;
+	text-decoration: none;
+}
+
+.topbar-link-selected,
+.topbar-link-selected:hover {
+	color: $primary;
+	border-bottom: 2px solid $primary;
+	padding-bottom: 2.4rem;
+}
+
+.topbar-item .avatar {
+	display: block;
+	height: 36px;
+	width: 36px;
+}
+
+/* Navigation · Topbar Fill
+	 ========================================================================== */
+
+.topbar-fill.topbar {
+	background: $primary;
+}
+
+.topbar-fill .topbar-link:hover {
+	color: $white;
+}
+
+.topbar-fill .topbar-link-selected,
+.topbar-fill .topbar-link-selected:hover {
+	color: $white;
+	border-color: $white;
 }

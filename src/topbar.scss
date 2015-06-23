@@ -46,13 +46,14 @@
 .topbar-logo-dropdown {
 	background: $primary;
 	border-radius: initial;
+	border: 0;
 	color: white;
 	display: block;
 	font-size: 12px;
 	font-weight: 600;
-	padding: 22px;
-	text-decoration: none;
 	height: 100%;
+	text-decoration: none;
+	padding: 29px;
 }
 
 .topbar-logo-dropdown:hover {

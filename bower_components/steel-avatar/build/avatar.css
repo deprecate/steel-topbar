@@ -1,0 +1,133 @@
+/* Avatar
+	 ========================================================================== */
+.avatar-round, .avatar, .avatar-initials, .avatar-icon, .avatar-icon-12,
+.avatar-icon-16, .avatar-photo img {
+  border-radius: 50%; }
+
+.avatar-photo:hover,
+.avatar-icon:hover,
+.avatar-icon-12:hover,
+.avatar-icon-16:hover {
+  opacity: .8; }
+
+.avatar, .avatar-initials, .avatar-icon, .avatar-icon-12,
+.avatar-icon-16 {
+  display: block;
+  text-align: center;
+  text-decoration: none; }
+
+/* Avatar - Sizes
+	 ========================================================================== */
+.avatar-small, .avatar-photo.avatar-small img {
+  width: 36px;
+  height: 36px; }
+
+.avatar-medium, .avatar-photo.avatar-medium img {
+  width: 56px;
+  height: 56px; }
+
+.avatar-large, .avatar-photo.avatar-large img {
+  width: 92px;
+  height: 92px; }
+
+/* Avatar - Photo
+	 ========================================================================== */
+.avatar-photo {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+/* Avatar - Initials
+	 ========================================================================== */
+.avatar-initials {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase; }
+
+.avatar-initials.avatar-small, .avatar-photo.avatar-small img.avatar-initials {
+  font-size: 9px;
+  line-height: 36px; }
+
+.avatar-initials.avatar-medium, .avatar-photo.avatar-medium img.avatar-initials {
+  font-size: 14px;
+  line-height: 56px; }
+
+.avatar-initials.avatar-large, .avatar-photo.avatar-large img.avatar-initials {
+  font-size: 23px;
+  line-height: 92px; }
+
+/* Avatar - Icon
+	 ========================================================================== */
+.avatar-icon {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+/* Avatar - Icon (SVG)
+	 ========================================================================== */
+.avatar-icon.avatar-small img, .avatar-photo.avatar-small img.avatar-icon img {
+  width: 18px;
+  height: 18px;
+  margin: 9px auto; }
+
+.avatar-icon.avatar-medium img, .avatar-photo.avatar-medium img.avatar-icon img {
+  width: 28px;
+  height: 28px;
+  margin: 14px auto; }
+
+.avatar-icon.avatar-large img, .avatar-photo.avatar-large img.avatar-icon img {
+  width: 46px;
+  height: 46px;
+  margin: 23px auto; }
+
+/* Avatar - Icon (Font)
+	 ========================================================================== */
+.avatar-icon-12,
+.avatar-icon-16 {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out; }
+
+.avatar-icon-12.avatar-medium, .avatar-photo.avatar-medium img.avatar-icon-12 {
+  width: 36px;
+  height: 36px; }
+
+.avatar-icon-12.avatar-medium span,
+.avatar-photo.avatar-medium img.avatar-icon-12 span,
+.avatar-icon-12.avatar-medium span, .avatar-photo.avatar-medium img.avatar-icon-12 span {
+  font-size: 12px;
+  line-height: 36px; }
+
+.avatar-icon-12.avatar-large, .avatar-photo.avatar-large img.avatar-icon-12 {
+  width: 72px;
+  height: 72px; }
+
+.avatar-icon-12.avatar-large span,
+.avatar-photo.avatar-large img.avatar-icon-12 span,
+.avatar-icon-12.avatar-large span, .avatar-photo.avatar-large img.avatar-icon-12 span {
+  font-size: 24px;
+  line-height: 72px; }
+
+.avatar-icon-16.avatar-medium, .avatar-photo.avatar-medium img.avatar-icon-16 {
+  width: 56px;
+  height: 56px; }
+
+.avatar-icon-16.avatar-medium span,
+.avatar-photo.avatar-medium img.avatar-icon-16 span,
+.avatar-icon-16.avatar-medium span, .avatar-photo.avatar-medium img.avatar-icon-16 span {
+  font-size: 16px;
+  line-height: 56px; }
+
+.avatar-icon-16.avatar-large, .avatar-photo.avatar-large img.avatar-icon-16 {
+  width: 92px;
+  height: 92px; }
+
+.avatar-icon-16.avatar-large span,
+.avatar-photo.avatar-large img.avatar-icon-16 span,
+.avatar-icon-16.avatar-large span, .avatar-photo.avatar-large img.avatar-icon-16 span {
+  font-size: 32px;
+  line-height: 92px; }

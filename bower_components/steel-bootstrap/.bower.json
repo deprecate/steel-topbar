@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "steel-bootstrap",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.4"
+  },
+  "homepage": "https://github.com/metal/steel-bootstrap",
+  "_release": "2f5d5d2ecf",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2f5d5d2ecf89e5d7997d0d0b27e697934e4da29e"
+  },
+  "_source": "git://github.com/metal/steel-bootstrap.git",
+  "_target": "master",
+  "_originalSource": "metal/steel-bootstrap"
+}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "steel-avatar",
+  "dependencies": {
+    "steel-bootstrap": "metal/steel-bootstrap#master"
+  },
+  "homepage": "https://github.com/metal/steel-avatar",
+  "_release": "0cedef6e2f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0cedef6e2f3f3b4751a4deb6641401b89f8e886f"
+  },
+  "_source": "git://github.com/metal/steel-avatar.git",
+  "_target": "master",
+  "_originalSource": "metal/steel-avatar"
+}

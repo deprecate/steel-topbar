@@ -56,7 +56,9 @@
   width: 36px; }
 
 .topbar-caret {
-  margin-left: 10px; }
+  margin-left: 10px;
+  position: relative;
+  top: 3px; }
 
 @media (max-width: 480px) {
   .topbar {

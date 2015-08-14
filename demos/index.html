@@ -7,27 +7,30 @@
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/bootstrap.css">
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/fonts/icon-12.css">
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/fonts/icon-16.css">
+	<link rel="stylesheet" href="../bower_components/steel-avatar/build/avatar.css">
 	<link rel="stylesheet" href="../build/topbar.css">
 </head>
 <body>
 	<nav class="topbar">
+		<div class="topbar-logo">
+			<a class="topbar-logo-link" href="#">
+				<img class="topbar-image" src="logo.svg" width="19" height="19" alt="Logo">
+			</a>
+		</div>
 		<ul class="topbar-list">
 			<li class="topbar-item">
-				<a class="topbar-logo-link" href="#">
-					<img class="topbar-logo" src="logo.svg" width="19" height="19" alt="Logo">
-				</a>
+				<a class="topbar-link topbar-link-selected" href="#">Apps</a>
 			</li>
 			<li class="topbar-item">
-				<a class="topbar-link topbar-link-selected" href="#">One</a>
+				<a class="topbar-link" href="#">Learn</a>
 			</li>
 			<li class="topbar-item">
-				<a class="topbar-link" href="#">Two</a>
+				<a class="topbar-link" href="#">Plan</a>
 			</li>
-			<li class="topbar-item">
-				<a class="topbar-link" href="#">Three</a>
-			</li>
-			<li class="topbar-item">
-				<a class="topbar-link" href="#">Four</span>
+			<li class="topbar-item topbar-avatar">
+				<a class="topbar-link" href="#">
+					<img class="topbar-avatar-image avatar" src="https://avatars2.githubusercontent.com/u/398893?s=72" alt="Avatar">
+					<span class="topbar-caret icon-12-arrow-down-short"></span>
 				</a>
 			</li>
 		</ul>

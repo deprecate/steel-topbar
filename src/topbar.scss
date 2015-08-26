@@ -40,9 +40,12 @@
 
 .topbar-link {
 	@include anim(color);
+	background: none;
+	border: none;
 	color: rgba($white, .3);
 	font-size: 14px;
 	font-weight: 400;
+	padding: 0;
 	text-decoration: none;
 }
 
@@ -63,10 +66,13 @@
 	width: 62px;
 }
 
-.topbar-avatar-image {
+.topbar-avatar .avatar-photo,
+.topbar-avatar .avatar-initials {
 	display: inline-block;
-	height: 36px;
-	width: 36px;
+}
+
+.topbar-avatar .avatar-initials {
+	background: $primary;
 }
 
 .topbar-caret {

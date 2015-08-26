@@ -32,9 +32,12 @@
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+  background: none;
+  border: none;
   color: rgba(255, 255, 255, 0.3);
   font-size: 14px;
   font-weight: 400;
+  padding: 0;
   text-decoration: none; }
 
 .topbar-link:focus {
@@ -50,10 +53,12 @@
 .topbar-avatar {
   width: 62px; }
 
-.topbar-avatar-image {
-  display: inline-block;
-  height: 36px;
-  width: 36px; }
+.topbar-avatar .avatar-photo,
+.topbar-avatar .avatar-initials {
+  display: inline-block; }
+
+.topbar-avatar .avatar-initials {
+  background: #233240; }
 
 .topbar-caret {
   margin-left: 10px;

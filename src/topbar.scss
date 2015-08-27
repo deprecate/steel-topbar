@@ -40,12 +40,9 @@
 
 .topbar-link {
 	@include anim(color);
-	background: none;
-	border: none;
 	color: rgba($white, .3);
 	font-size: 14px;
 	font-weight: 400;
-	padding: 0;
 	text-decoration: none;
 }
 

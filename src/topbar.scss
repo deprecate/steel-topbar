@@ -6,11 +6,8 @@
 
 .topbar {
 	background: $primary;
-	font-family: $font-family-secondary;
-	font-weight: 500;
 	height: 84px;
 	padding: 0 40px;
-	text-transform: uppercase;
 }
 
 .topbar-logo {
@@ -21,8 +18,11 @@
 .topbar-logo-link {
 	@include anim(color);
 	color: rgba($white, .8);
-	margin: 30px 0;
 	display: flex;
+	font-family: $font-family-secondary;
+	font-weight: 500;
+	margin: 30px 0;
+	text-transform: uppercase;
 }
 
 .topbar-logo-link:hover {
@@ -56,8 +56,11 @@
 .topbar-link {
 	@include anim(color);
 	color: rgba($white, .3);
-	text-decoration: none;
+	font-family: $font-family-secondary;
 	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .topbar-link:focus {

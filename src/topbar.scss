@@ -5,7 +5,7 @@
 	 ========================================================================== */
 
 .topbar {
-	background: #0e141a;
+	background: $primary;
 	height: 84px;
 	padding: 0 40px;
 }
@@ -70,7 +70,7 @@
 }
 
 .topbar-avatar .avatar-initials {
-	background: $primary;
+	background: rgba($white, .1);
 }
 
 .topbar-caret {

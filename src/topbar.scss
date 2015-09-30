@@ -86,11 +86,12 @@
 }
 
 .topbar-avatar {
-	width: 62px;
+	margin-left: 10px;
+	position: relative;
+	top: 3px;
 }
 
-.topbar-avatar .avatar-photo,
-.topbar-avatar .avatar-initials {
+.topbar-avatar .avatar-container {
 	cursor: pointer;
 	display: inline-block;
 }
@@ -102,7 +103,7 @@
 .topbar-caret {
 	margin-left: 10px;
 	position: relative;
-	top: 3px;
+	top: -12px;
 }
 
 @media (max-width: 480px) {
